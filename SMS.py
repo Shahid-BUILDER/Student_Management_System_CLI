@@ -4,7 +4,7 @@ import mysql.connector
 import os
 import time
 init(autoreset=True)
-con=mysql.connector.connect(host="localhost", user="root", password="<Your_MYSQL_Password", database="<Your_database_Name>")
+con=mysql.connector.connect(host="localhost", user="root", password="<Your_MYSQL_Password>", database="<Your_database_Name>")
 print(con)
 cur=con.cursor()
 
